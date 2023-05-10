@@ -10,17 +10,11 @@ function newImage (url, left, bottom){
 
 function newWeapon (url, left, bottom){
     let object = newImage(url, left, bottom)
-
-    object.addEventListener('click', function(){
+        object.addEventListener('click', function(){
         object.translate() //wanted to try to figure out how to move object to character, help?
-
-    
 })
-
     object.addEventListener('dblclick', function(){
         object.remove()
-
-
 })
 }
 
