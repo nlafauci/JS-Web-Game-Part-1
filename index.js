@@ -12,7 +12,7 @@ function newWeapon (url, left, bottom){
     let object = newImage(url, left, bottom)
 
     object.addEventListener('click', function(){
-        object.translate(100, 100)
+        object.translate() //wanted to try to figure out how to move object to character, help?
 
     
 })
